@@ -7,3 +7,10 @@
 body {
     font-family: "Manrope", sans-serif;
 }
+:root {
+    --white-color: #fff;
+    --text-color: #191720;
+    --text-second-color: #575363;
+    --border-color: #19172059;
+    --btn-bg-color: #572af8;
+}
