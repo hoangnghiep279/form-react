@@ -3,7 +3,7 @@ const Signup = () => {
     return (
         <div>
             <div className="w-[430px] bg-[var(--white-color)] shadow-xl rounded-xl p-[20px]">
-                <h1 className="text-[var(--text-color)] text-[26px] font-semibold leading-6">Sign In</h1>
+                <h1 className="text-[var(--text-color)] text-[1.6rem] font-semibold leading-6">Sign In</h1>
                 <a
                     href="#!"
                     className="border-[var(--border-color)] p-[11px] rounded-md border-2 flex items-center mt-[15px]"
@@ -11,7 +11,7 @@ const Signup = () => {
                     <div className="flex items-center justify-center bg-[#0866ff] w-6 h-6 rounded-full ">
                         <img src="../src/assets/icon/facebook.svg" alt="" className="w-[10px]" />
                     </div>
-                    <span className="text-[var(--text-second-color)] text-[16px] grow">Tiếp tục với Facebook</span>
+                    <span className="text-[var(--text-second-color)] text-base grow">Tiếp tục với Facebook</span>
                 </a>
                 <a
                     href="#!"
@@ -20,7 +20,7 @@ const Signup = () => {
                     <div>
                         <img src="../src/assets/icon/google.svg" alt="" className="w-[20px]" />
                     </div>
-                    <span className="text-[var(--text-second-color)] text-[16px] grow">Tiếp tục với Google</span>
+                    <span className="text-[var(--text-second-color)] text-base grow">Tiếp tục với Google</span>
                 </a>
                 <a
                     href="#!"
@@ -29,9 +29,9 @@ const Signup = () => {
                     <div>
                         <img src="../src/assets/icon/apple.svg" alt="" className="w-[20px]" />
                     </div>
-                    <span className="text-[var(--text-second-color)] text-[16px] grow">Tiếp tục với Apple</span>
+                    <span className="text-[var(--text-second-color)] text-base grow">Tiếp tục với Apple</span>
                 </a>
-                <span className="uppercase text-[var(--text-second-color)] text-[16px] my-2 block">Hoặc</span>
+                <span className="uppercase text-[var(--text-second-color)] text-base my-2 block">Hoặc</span>
                 <form action="">
                     <div className="border-[var(--border-color)] p-[15px] rounded-md border-2 flex ">
                         <input
@@ -63,7 +63,7 @@ const Signup = () => {
                     </div>
 
                     <button className="rounded-md bg-[var(--btn-bg-color)] w-full p-[15px] mt-7">Đăng Nhập</button>
-                    <span className="text-[#575363b3] text-[14px] mt-2 block ">
+                    <span className="text-[#575363b3] text-sm mt-2 block ">
                         Bạn đã có tài khoản?
                         <Link to={"/"} className="text-[var(--text-color)] font-semibold">
                             Đăng nhập
